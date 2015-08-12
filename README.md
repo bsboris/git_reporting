@@ -1,5 +1,7 @@
 # GitReporting
 
+[![Code Climate](https://codeclimate.com/github/bsboris/git_reporting/badges/gpa.svg)](https://codeclimate.com/github/bsboris/git_reporting)
+
     reporter = GitReporting::Reporter.new(source: :github, login: "...", password: "...", repo: "my/repo")
 
     reporter.build_report #=> simple report for all time
